@@ -18,6 +18,9 @@
 		A15D936525D776A700905BF8 /* myflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15D936425D776A700905BF8 /* myflixUITests.swift */; };
 		A15D937925D778E800905BF8 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15D937825D778E800905BF8 /* MoviesViewController.swift */; };
 		A15D937E25D7AF7D00905BF8 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15D937D25D7AF7D00905BF8 /* MovieCell.swift */; };
+		A1C5993725DE1CA000A712F7 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5993625DE1CA000A712F7 /* MovieDetailsViewController.swift */; };
+		A1C5993C25DE310100A712F7 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5993B25DE310100A712F7 /* MovieGridViewController.swift */; };
+		A1C5994925DE490700A712F7 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5994825DE490700A712F7 /* MovieGridCell.swift */; };
 		A4E28022F2F193D67F597993 /* Pods_myflix_myflixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F352497B0DEFC4A3858E19A /* Pods_myflix_myflixUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,9 @@
 		A15D936625D776A700905BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15D937825D778E800905BF8 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		A15D937D25D7AF7D00905BF8 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		A1C5993625DE1CA000A712F7 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		A1C5993B25DE310100A712F7 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		A1C5994825DE490700A712F7 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		BA93754B451F4A13D4C321AE /* Pods_myflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABCA00C8FF67E54C0FC29B7 /* Pods_myflixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myflixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -126,6 +132,9 @@
 				A15D935025D776A600905BF8 /* Info.plist */,
 				A15D937825D778E800905BF8 /* MoviesViewController.swift */,
 				A15D937D25D7AF7D00905BF8 /* MovieCell.swift */,
+				A1C5993625DE1CA000A712F7 /* MovieDetailsViewController.swift */,
+				A1C5993B25DE310100A712F7 /* MovieGridViewController.swift */,
+				A1C5994825DE490700A712F7 /* MovieGridCell.swift */,
 			);
 			path = myflix;
 			sourceTree = "<group>";
@@ -409,10 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C5993725DE1CA000A712F7 /* MovieDetailsViewController.swift in Sources */,
 				A15D934325D7769B00905BF8 /* AppDelegate.swift in Sources */,
 				A15D934525D7769B00905BF8 /* SceneDelegate.swift in Sources */,
 				A15D937E25D7AF7D00905BF8 /* MovieCell.swift in Sources */,
 				A15D937925D778E800905BF8 /* MoviesViewController.swift in Sources */,
+				A1C5993C25DE310100A712F7 /* MovieGridViewController.swift in Sources */,
+				A1C5994925DE490700A712F7 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +604,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92WF5RGNMZ;
 				INFOPLIST_FILE = myflix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -612,6 +625,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92WF5RGNMZ;
 				INFOPLIST_FILE = myflix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
