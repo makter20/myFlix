@@ -15,7 +15,7 @@ myflix is an app that allows users to browse movies from the [The Movie Database
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-<img src="http://g.recordit.co/xXB6tY4zDa.gif" width=250><br>
+<img src="http://g.recordit.co/wD5DwnqEi9.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
