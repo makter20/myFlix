@@ -32,13 +32,11 @@ class MovieDetailsViewController: UIViewController {
         synopsisLabel.text = movie["overview"] as? String
         synopsisLabel.sizeToFit()
         
-//        posterView.layer.masksToBounds = true
-//        posterView.layer.borderWidth = 2
-//        posterView.layer.borderColor = UIColor.white.cgColor
-//
-//        posterView.layer.cornerRadius = 5.0
-//        posterView.contentMode = .scaleAspectFit
-        //posterView.image = image
+        posterView.clipsToBounds = true
+        posterView.layer.borderWidth = 2
+        posterView.layer.borderColor = UIColor.white.cgColor
+        posterView.layer.cornerRadius = 5.0
+
         
         
         let baseURL = "https://image.tmdb.org/t/p/w185"
